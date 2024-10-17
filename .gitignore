@@ -19,3 +19,7 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+.idea
+
+# https://www.imagetotext.info/
+# https://chatgpt.com/c/67101399-2678-800a-8fdc-d5e4aca65394
