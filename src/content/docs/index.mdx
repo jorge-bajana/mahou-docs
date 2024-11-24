@@ -6,6 +6,7 @@ sidebar:
   hidden: true
 pagefind: false
 ---
+import { LinkCard, CardGrid } from '@astrojs/starlight/components'
 
 Consulta todos los acuerdos laborales vigentes para proteger tus derechos y garantizar condiciones justas en tu entorno de trabajo.
 
@@ -41,3 +42,30 @@ Si tienes alguna duda o necesitas más información, Comisiones Obreras está a 
 
 ### Aviso Legal
 Este sitio web es una iniciativa de Comisiones Obreras para facilitar el acceso a los convenios colectivos de Mahou S.A. No somos responsables de los contenidos de los convenios ni de su interpretación. Si tienes alguna duda sobre los términos y condiciones, te recomendamos que consultes con un asesor legal especializado en derecho laboral.
+
+---
+
+### Últimas noticias
+
+<CardGrid>
+    <LinkCard
+        title="CCOO revalida la victoria en las elecciones sindicales en el centro de técnicos y administrativos del Grupo Mahou-San Miguel de Granada"
+        href="https://industria.ccoo.es/noticia:601605--CCOO_revalida_la_victoria_en_las_elecciones_sindicales_en_el_centro_de_tecnicos_y_administrativos_del_Grupo_Mahou_San_Miguel_de_Granada&opc_id=14d9a05d1dad008126cf50f5898eb5a4"
+        target="_blank"
+    />
+    <LinkCard
+        title="CCOO de Mahou logra firmar un importante Protocolo sobre el registro de jornada con Mahou S.A."
+        href="https://industria.ccoo.es/noticia:412133"
+        target="_blank"
+    />
+    <LinkCard
+        title="Quienes trabajan en la industria cervecera unen sus fuerzas para superar el bache"
+        href="https://industria.ccoo.es/noticia:513520"
+        target="_blank"
+    />
+    <LinkCard
+        title="Objetivo cumplido trabajadores y trabajadoras de Mahou SA consiguen un convenio único para sus tres centros de trabajo."
+        href="https://industria.ccoo.es/noticia:374090--Objetivo_cumplido_trabajadores_y_trabajadoras_de_Mahou_SA_consiguen_un_convenio_unico_para_sus_tres_centros_de_trabajo_"
+        target="_blank"
+    />
+</CardGrid>
